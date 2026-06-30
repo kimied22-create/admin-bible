@@ -678,10 +678,24 @@ footer p { margin: .55rem 0; }
   .gpc-highlight-grid, .resource-grid { grid-template-columns: 1fr; }
 }
 
-.quick-links-page .section-title p {
+.quick-links-page .section-title p,
+.homepage-quick-links .section-title p {
   max-width: 860px;
   color: var(--muted);
   line-height: 1.5;
+}
+.homepage-quick-links {
+  background: rgba(255, 253, 249, .94);
+}
+.quick-link-group {
+  margin-top: 1.4rem;
+}
+.quick-link-group h3 {
+  margin-bottom: .75rem;
+  color: #4f4261;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 .quick-links-hero {
   background: var(--blue);
