@@ -534,7 +534,7 @@ footer p { margin: .55rem 0; }
 .staffonly { background: #8177a4 !important; color: #ffffff !important; }
 .studentonly { background: #8eb7dc !important; color: #233044 !important; }
 
-testing { background: #ef7d69 !important; color: #ffffff !important; }
+.testing { background: #ef7d69 !important; color: #ffffff !important; }
 
 .date-cell {
   position: relative;
