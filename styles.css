@@ -944,7 +944,7 @@ main {
 .resource-controls input:focus { outline: 3px solid rgba(224,107,159,.2); border-color: #9a66c8; }
 .resource-controls p { margin: 7px 2px 0; color: #6d617b; font-size: .82rem; }
 .resource-sections { display: grid; gap: 28px; }
-.resource-group { padding: 26px; border: 1px solid #e4dcef; border-radius: 24px; background: #fff; box-shadow: 0 10px 30px rgba(49,33,95,.07); }
+.resource-group { scroll-margin-top: 175px; padding: 26px; border: 1px solid #e4dcef; border-radius: 24px; background: #fff; box-shadow: 0 10px 30px rgba(49,33,95,.07); }
 .resource-group-heading { display: flex; align-items: flex-start; gap: 13px; margin-bottom: 18px; }
 .resource-group-heading > span { font-size: 1.8rem; }
 .resource-group-heading h2 { margin: 0; color: #382361; font: 800 1.55rem/1.2 "Playfair Display", serif; }
@@ -956,7 +956,7 @@ main {
 .resource-card strong { padding-right: 18px; font-size: .96rem; line-height: 1.35; }
 .resource-card small { color: #70667a; line-height: 1.45; }
 .file-badge { display: inline-flex; padding: 4px 8px; border-radius: 999px; color: #fff; background: #6f4bb8; font-size: .64rem; font-weight: 900; letter-spacing: .06em; }
-.file-badge.sheet { background: #2f8a67; } .file-badge.pdf { background: #d24f5d; } .file-badge.form { background: #8b5fc2; } .file-badge.locked { background: #766e7d; }
+.file-badge.sheet { background: #2f8a67; } .file-badge.pdf { background: #d24f5d; } .file-badge.form { background: #8b5fc2; } .file-badge.folder { background: #d58b26; } .file-badge.locked { background: #766e7d; }
 .access-needed { border-color: #e7d8b2; background: #fffcf4; } .access-needed .resource-card { background: #fffdf8; }
 .no-resource-results { margin: 36px 0; padding: 24px; border-radius: 18px; background: #fff; text-align: center; font-weight: 700; }
 [hidden] { display: none !important; }
